@@ -53,28 +53,27 @@ const ProjectsPage = () => {
       description: "React js, React Hooks",
       image: "src/assets/dicegame.png",
       githubLink: "https://github.com/ImtinanFakhar/FoodyZone-React-PJ",
-      liveDemoLink: "https://imtinanfakhar.github.",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "Pentest-Shinobi",
       description: "React js, React Hooks, TailwindCSS",
       image: "src/assets/pt.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://imtinanfakhar.github.io/",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "VanLife#",
       description: "React js, React Hooks, React Router, firbase",
       image: "src/assets/vanlife.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://imtinanfakhar.github.io/",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "MemeGenerator",
       description: "React js, React Hooks,",
       image: "src/assets/memegn.png",
-      githubLink:
-        "hhttps://github.com/ImtinanFakhar",
+      githubLink:"https://github.com/ImtinanFakhar",
       liveDemoLink: "https://imtinanfakhar.github.io/",
     },
     {
