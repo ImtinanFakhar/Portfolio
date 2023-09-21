@@ -13,8 +13,7 @@ const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
             height={200} // Set the height for the placeholder
             src={image}
             alt={title}
-            className="w-full h-40 object-cover"
-          />
+            className="w-full h-40 object-cover"/>
         </a>
       </div>
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
