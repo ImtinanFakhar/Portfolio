@@ -6,18 +6,17 @@ import { FaGithub } from "react-icons/fa";
 const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
   return (
     <div className="border border-gray-300 p-4 rounded-lg shadow-lg mb-4">
-      <a
-        href={liveDemoLink || githubLink}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <LazyLoadImage
-          effect="blur" // Specify the desired effect
-          height={200} // Set the height for the placeholder
-          src={image} // Corrected src prop
-          alt={title} // Corrected alt prop
-        />
-      </a>
+      <div className="image-container mb-1">
+        <a href={liveDemoLink || githubLink} target="_blank" rel="noopener noreferrer">
+          <LazyLoadImage
+            effect="blur" // Specify the desired effect
+            height={200} // Set the height for the placeholder
+            src={image}
+            alt={title}
+            className="w-full h-40 object-cover"
+          />
+        </a>
+      </div>
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
       <p className="text-gray-700 mb-4">{description}</p>
       <div className="mt-8 flex flex-row">
@@ -33,13 +32,13 @@ const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
             <FaGithub className="text-5xl text-black-900 hover:text-blue-800" />
           </i>
         </a>
-        <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
+         <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
           <i className="VscOpenPreview text-2xl text-gray-900 hover:text-gray-900"></i>
         </a>
       </div>
     </div>
   );
-};
+}; 
 
 const ProjectsPage = () => {
   const projects = [
@@ -77,42 +76,42 @@ const ProjectsPage = () => {
       description: "React js, React Hooks,",
       image: "/images/memegn.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://imtinanfakhar.github.io/",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "Amazon Home Page Clone",
       description: "Html CSS JavaScript",
       image: "/images/amazon.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://imtinanfakhar.github.io/",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "Single-page-coffee-menu",
       description: "Html CSS",
       image: "/images/coffee.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://demo.project2.com",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "Landing Page",
       description: "Html CSS",
       image: "/images/landingpagebasic.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://demo.project2.com",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "DropDown Menu with Javascript",
       description: "Html CSS JavaScript",
       image: "/images/dpdown.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://demo.project2.com",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
     {
       title: "FreeCodeCamp Survey-form",
       description: "Html CSS",
       image: "/images/suveyform.png",
       githubLink: "https://github.com/ImtinanFakhar",
-      liveDemoLink: "https://demo.project2.com",
+      liveDemoLink: "https://github.com/ImtinanFakhar",
     },
   ];
 
