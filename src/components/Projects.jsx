@@ -1,19 +1,21 @@
 import React from "react";
+import  { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css"; // Import the desired effect CSS
 import { FaGithub } from "react-icons/fa";
 
 const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
   return (
-    <div className="border border-gray-300  p-4 rounded-lg shadow-lg mb-4">
+    <div className="border border-gray-300 p-4 rounded-lg shadow-lg mb-4">
       <a
         href={liveDemoLink || githubLink}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          src={image}
-          alt={title}
-          className="mb-1 w-full h-40 object-cover"
-          loading="lazy"
+        <LazyLoadImage
+          effect="blur" // Specify the desired effect
+          height={200} // Set the height for the placeholder
+          src={image} // Corrected src prop
+          alt={title} // Corrected alt prop
         />
       </a>
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
@@ -74,7 +76,7 @@ const ProjectsPage = () => {
       title: "MemeGenerator",
       description: "React js, React Hooks,",
       image: "/images/memegn.png",
-      githubLink:"https://github.com/ImtinanFakhar",
+      githubLink: "https://github.com/ImtinanFakhar",
       liveDemoLink: "https://imtinanfakhar.github.io/",
     },
     {
@@ -102,8 +104,7 @@ const ProjectsPage = () => {
       title: "DropDown Menu with Javascript",
       description: "Html CSS JavaScript",
       image: "/images/dpdown.png",
-      githubLink:
-        "https://github.com/ImtinanFakhar",
+      githubLink: "https://github.com/ImtinanFakhar",
       liveDemoLink: "https://demo.project2.com",
     },
     {
