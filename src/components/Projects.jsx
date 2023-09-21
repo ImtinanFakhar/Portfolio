@@ -32,13 +32,13 @@ const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
             <FaGithub className="text-5xl text-black-900 hover:text-blue-800" />
           </i>
         </a>
-         <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
+        <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
           <i className="VscOpenPreview text-2xl text-gray-900 hover:text-gray-900"></i>
         </a>
       </div>
     </div>
   );
-}; 
+};
 
 const ProjectsPage = () => {
   const projects = [
