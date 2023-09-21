@@ -13,6 +13,7 @@ const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
           src={image}
           alt={title}
           className="mb-1 w-full h-40 object-cover"
+          loading="lazy"
         />
       </a>
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
