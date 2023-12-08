@@ -1,4 +1,4 @@
-Chwck out my portfolio its a work in progress Link to see it live (https://solodevs.netlify.app/)
+Check out my portfolio its a work in progress Link to see it live (https://imtinanf.netlify.app/)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
