@@ -58,7 +58,7 @@ function Home() {
                 <span className="text-gray-700">
                   ReactJS, Redux, HTML, CSS, React Native, NPM,
                   BootStrap, MaterialUI, TailwindCSS, StyledComponents,
-                  WordPress
+                  WordPress, Shopify 
                 </span>
               </li>
             </ol>
