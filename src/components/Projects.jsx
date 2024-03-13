@@ -42,12 +42,68 @@ const Project = ({ title, description, image, githubLink, liveDemoLink }) => {
 const ProjectsPage = () => {
   const projects = [
     {
+      title: "Transport Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/transport.png",
+      githubLink: "https://github.com/ImtinanFakhar/Transport-Web-Template",
+      liveDemoLink:
+        "https://fright.netlify.app",
+    },
+    {
+      title: "Dentist Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/dentalcare.png",
+      githubLink: "https://github.com/ImtinanFakhar/DentistPro-Web-Template",
+      liveDemoLink:
+        "https://dentistpro.netlify.app",
+    },
+    {
+      title: "Flare Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/flare.png",
+      githubLink: "https://github.com/ImtinanFakhar/Flare-Web-Template",
+      liveDemoLink:
+        "https://flar-e.netlify.app",
+    },
+    {
+      title: "FoodScoop Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/Foodscoop.png",
+      githubLink: "https://github.com/ImtinanFakhar/FoodScoop-Web-Template",
+      liveDemoLink:
+        "https://foodscoop.netlify.app/",
+    },
+    {
+      title: "lawyer Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/lawstreet.png",
+      githubLink: "https://github.com/ImtinanFakhar/LawStreet",
+      liveDemoLink:
+        "https://lawstreet.netlify.app",
+    },
+    {
+      title: "Multipurpose Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/spectral.png",
+      githubLink: "https://github.com/ImtinanFakhar/Spectraal-Web-template",
+      liveDemoLink:
+        "https://spectraal.netlify.app",
+    },
+    {
+      title: "Designer Website Template",
+      description: "Html, Css, JavaScript,PHP",
+      image: "/images/photographer.png",
+      githubLink: "https://github.com/ImtinanFakhar/",
+      liveDemoLink:
+        "https://designersfolio.netlify.app",
+    },
+    {
       title: "FoodyZone Web App",
       description: "React js, styled components, Api calling, React Hooks",
       image: "/images/foodyz.png",
       githubLink: "https://github.com/ImtinanFakhar",
       liveDemoLink:
-        "https://imtinanfakhar.github.io/Amazon-landing-page-clone/",
+        "https://github.com/ImtinanFakhar",
     },
     {
       title: "React-Dice-Game",
@@ -114,7 +170,7 @@ const ProjectsPage = () => {
     },
   ];
 
-  const githubLinkForPage = "https://github.com/ImtinanFakhar";
+  //const githubLinkForPage = "https://github.com/ImtinanFakhar";
 
   return (
     <div className="container mx-auto py-auto">
